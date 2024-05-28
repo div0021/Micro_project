@@ -1,0 +1,124 @@
+:root{
+    --background-color:#FFCD9E;
+    --primary:#282828;
+    --secondary:#484848;
+    --text-input-color:#888888;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter", sans-serif;
+}
+
+main{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.container{
+    display: flex;
+    padding: 1rem 5rem;
+    row-gap: 5rem;
+    max-width: 1440px;
+
+}
+.section1{
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+}
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 54px;
+}
+.description{
+    font-size: 20px;
+    line-height: 2rem;
+    color: var(--secondary);
+    width: 90%;
+    font-weight: 500;
+}
+h6{
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 800;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 3rem;
+    align-items: start;
+}
+form>div{
+    width: 60%;
+}
+
+input{
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: var(--text-input-color);
+    background-color: white;
+    border: solid 2px black;
+    width: 100%;
+    font-size: 20px;
+}
+button{
+      padding: 1rem;
+      width: 40%;
+      background-color: var(--primary);
+      color: white;
+      font-weight: 700;
+      border-radius: 8px;
+      font-size: 20px;
+      cursor: pointer;
+}
+.info{
+    color:white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 14px;
+}
+
+footer{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer>div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    row-gap: 5rem;
+    max-width: 1440px;
+}
+ul{
+    color: white;
+    list-style: none;
+    padding: 1rem 8rem;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list1{
+    text-align: left;
+}
+.list2{
+    text-align: right;
+}
+li{
+    margin: 6.1px 0;
+    cursor: pointer;
+}
